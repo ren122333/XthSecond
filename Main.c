@@ -5,7 +5,9 @@ int main() {
     int sec;
     int hour;
     int minute;
-    printf("Please enter the amount of seconds. \n");
+    if (0 == 0){
+
+    }
     scanf("%d",&sec);
     if (sec > 86400 || sec < 0){
         return -1;
